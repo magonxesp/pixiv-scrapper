@@ -1,6 +1,5 @@
 # Pixiv Scrapper
 
-
 Library for scrapping www.pixiv.net pages 
 
 ## Installation
