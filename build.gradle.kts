@@ -54,11 +54,13 @@ kotlin {
 		val kotlin_serialization_version: String by project
 		val kotlin_corroutines_version: String by project
 		val kotlin_faker: String by project
+		val skrapeit_version: String by project
 
         jvmMain {
             dependencies {
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:$kotlin_serialization_version")
 				implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_corroutines_version")
+				implementation("it.skrape:skrapeit:$skrapeit_version")
             }
         }
 		jvmTest {
