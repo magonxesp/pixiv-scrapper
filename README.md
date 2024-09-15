@@ -1,8 +1,7 @@
-# Kotlin Library template
+# Pixiv Scrapper
 
-Run the `deno run --allow-write --allow-read scripts/init.js` command for initialize the template
 
-TODO: library description
+Library for scrapping www.pixiv.net pages 
 
 ## Installation
 
@@ -10,7 +9,7 @@ Add the dependency on your `build.gradle.kts`
 
 ```kotlin
 dependencies {
-    implementation("io.github.magonxesp:<artifact-id>:0.0.0")
+    implementation("io.github.magonxesp:pixiv-scrapper:0.0.0")
 }
 ```
 

@@ -12,14 +12,14 @@ group = "io.github.magonxesp"
 version = "0.0.0"
 
 mavenPublishing {
-	coordinates(group as String, "kotlin-library", version as String)
+	coordinates(group as String, "pixiv-scrapper", version as String)
 	publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
 	signAllPublications()
 
 	pom {
-		name = "Kotlin library template"
-		description = "The template for make new kotlin libraries"
-		url = "https://github.com/magonxesp/kotlin-library"
+		name = "Pixiv Scrapper"
+		description = "Library for scrapping www.pixiv.net pages "
+		url = "https://github.com/magonxesp/pixiv-scrapper"
 		licenses {
 			license {
 				name = "The MIT License (MIT)"
@@ -35,9 +35,9 @@ mavenPublishing {
 			}
 		}
 		scm {
-			connection = "scm:git:git://github.com/magonxesp/kotlin-library.git"
-			developerConnection = "scm:git:ssh://github.com/magonxesp/kotlin-library.git"
-			url = "https://github.com/magonxesp/kotlin-library"
+			connection = "scm:git:git://github.com/magonxesp/pixiv-scrapper.git"
+			developerConnection = "scm:git:ssh://github.com/magonxesp/pixiv-scrapper.git"
+			url = "https://github.com/magonxesp/pixiv-scrapper"
 		}
 	}
 }
